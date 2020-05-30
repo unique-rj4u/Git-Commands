@@ -1,0 +1,29 @@
+git config --global user.email "unique.rj4u@gmail.com"
+git config --global user.name "Dhiraj Sahani"
+git config --list
+git config 
+
+git log
+rm -rf .git                             {Delete The .git folder}
+pwd   {present working directory}
+git ignore file_name    {ignore file}
+touch file_name    {create file by command }
+
+ cd Drive_name:
+mkdir name     				        {make the directory(file)}
+cd name         			            {enter into that file}
+git init
+git add file_name.extension or git add .    or git add --a 
+git diff             			        {check updates(difference)}
+git diff  --staged                
+git status                    		{check status}
+git commit -a(name) -m 'massage'
+git commit =m "massage"
+git remote add repositories_name url
+git push repositories_name Branch_name
+git clone url
+git pull origin master
+git ls =for all file 
+
+finally uploaded on github
+
