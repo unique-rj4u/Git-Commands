@@ -51,7 +51,7 @@ git checkout branch_name        {switch in a branch}
 
 (merging branches):
 git mrerge branch_name
-merging     {but vsc me simply ho jaayega}
+merging     {but vsc me simply ho jaayega ( click on accept current change)}
 >i Button >Type Commit>esc>:wq
 git add .
 git merge branch_name
