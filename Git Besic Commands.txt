@@ -1,8 +1,13 @@
 git config --global user.email "unique.rj4u@gmail.com"
 git config --global user.name "Dhiraj Sahani"
 git config --list
-git config 
+git config      {show configed email and user name}
 ls      {show file list}
+q   {Out From Operation}
+
+(alias):        {give any short name instead of any command}
+git config --global alias.give_any_shrot_name jisake_badale_dena_ho
+(eg. git config --global alias.st status)                   {we can use st instead of status}
 
 (Activate ssh key ):
 ssh-keygen -t rsa -b 4096 -c "unique.rj4u@gmail.com"
@@ -42,39 +47,36 @@ git branch -v   {show all branch with commits}
 git checkout -b give_branch_name            {direct create & checkout on that branch}
 git branch Branch_name          {only create branch}
 git checkout branch_name        {switch in a branch}
-
 >aur baad me push karane ke liye same process
 
 (merging branches):
 git mrerge branch_name
-merging     {but vsc me simple he}
+merging     {but vsc me simply ho jaayega}
 >i Button >Type Commit>esc>:wq
 git add .
-and finally git merge branch_name
+git merge branch_name
 so finally merged branches
 
 (Delete branches):
- git branch -d branch_name      {Delete local branch}
+ git branch -d branch_name          {Delete local branch}
  git push -d origin branch_name     {Delete Remote Branch}
 
 
 (remote):
 git remote          {show only push github url}
-git remote -v       {show ]pull and push github url}
+git remote -v       {show pull and push github url}
 
 
 
-rm -rf .git                             {Delete The .git folder}
+rm -rf .git                            {Delete The .git folder} {init hat jaayega}
 pwd   {present working directory}
 git ignore file_name    {ignore file}
 touch file_name    {create file by command }
 
 
-q   {Out From Operation}
-
 git mv file_name file_name       {Move file one place to another place}
 
-(Git Log):
+(Git Log):  {use to show commits}
 git log
 git log -p   
 git log --stat      {Short Details(summary)}
@@ -85,16 +87,14 @@ git log --since=2.days
 git log --since=2.weeks
 git log --since=2.years
 git log --pretty=format:"%h --%an"      {show commit by filter} {given in git documentation website}
-git commit --amend   >i Button >Type Commit>esc>:wq           {transfer commit into another commit}
+git commit --amend   >i Button >Type Commit>esc>:wq           {transfer commit into another commit(rename)}
 
 git restore --staged file_name.extension        {unstaged the file}
 git checkout --file_name        {restore previous commit}  
 git add .gitignore
 git checkout -f                 {enter previous commit}
 
-(alias):        {give any short name instead of any command}
-git config --global alias.give_any_shrot_name jisake_badale_dena_ho
-(eg. git config --global alias.st status)                   {we can use st instead of status}
+
 
 
 
