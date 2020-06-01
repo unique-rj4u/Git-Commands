@@ -8,7 +8,7 @@ _Italic_
 
 [link Here](https://linktr.ee/Dhiraj.Sahani "ALL SOCIAL LINK")
 
-Use 'for' loop
+Use ` for ` loop
 
 ```javascript
 var name="Dhiraj";
